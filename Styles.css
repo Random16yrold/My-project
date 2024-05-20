@@ -1,0 +1,410 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(a1932d473d195c6b03a3507f3c957979.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 538%;
+   
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: relative;
+}
+li:hover{
+    background-color: red;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold
+}
+
+nav a:hover {
+    background-color: red;
+    padding: 26px;
+    
+}
+
+nav a:active {
+    color: black;
+}
+
+.hero-section .container {
+  padding: 50px;
+}
+
+.hero {
+  background-size: cover;
+  color: black;
+  padding: 100px;
+  text-align: center;
+}
+
+button {
+  background-color: red;
+  color: #020407c6;
+  padding: 30px 35px;
+  font-size: 200;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.container {
+  background-color: darkred;
+  max-width: 1000px;
+  height: fit-content;
+  margin: 150px auto;
+  padding: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: block;
+}
+
+.about {
+    padding: 100px;
+}
+
+.about-content {
+    display: block;
+    margin-right: -100px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content h2 {
+  text-align: left;
+  height: 30px;
+}
+
+.about-content p {
+  text-align: center;
+}
+
+#about.projects {
+  background-color: darkred;
+  max-width: 1000px;
+  height: 1000px;
+  text-align: center;
+  margin: 150px auto;
+  margin-top: -50px;
+  padding: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: block;
+}
+
+#about h2 {
+  color: whitesmoke;
+  margin-top: -50px;
+}  
+
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-content .left {
+  margin-bottom: 20px;
+}
+
+.about-content .left img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right {
+  max-width: 600px;
+  text-align: center;
+}
+
+h3 {
+  color: #fff;
+}
+
+.p {
+  text-align: right 50px;
+
+}
+#projects {
+  padding: 50px 0;
+}
+
+.project {
+    padding: 50px;
+    display: flex;
+    align-items: right;
+    justify-self: right;
+}
+
+.project-grid .container {
+  margin-left: 650px;
+  margin-top: 50px;
+}
+
+.projects{
+  background-color: darkred;
+  max-width: 1000px;
+  height: fit-content;
+  margin: 150px auto;
+  margin-top: -40px;
+  padding: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: block;
+}
+
+#projects .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100 200px;
+  display: flex;
+  gap: 10px;
+}
+
+h2 {
+  color: #fff;
+}
+
+.project-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    margin-top: 50px;
+}
+
+body {
+    margin: 0;
+    justify-content: right;
+    height: 100vh;
+    font-family: cursive;
+  }
+  
+  .testimonial-container {
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    min-width: 400px;
+    padding: 130px 20px;
+    margin: 5px;
+    color: white;
+    position: relative;
+    align-items: right;
+    justify-content: right;
+    margin-top: 100px;
+  }
+
+  .text {
+    color: whitesmoke;
+  }
+  
+  img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+  }
+
+  
+.project {
+  padding: 20px;
+  border-radius: 8px;
+}
+  
+  .username {
+    font-size: 13px;
+    font-weight: 100;
+  }
+
+.contact {
+    padding: 50px;
+}
+
+#contact.project {
+  padding: 70px;
+}
+
+#contact h2 {
+  color: black;
+  font-style: oblique;
+  text-align: left;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Helvetica", sans-serif;
+}
+
+.tip-container {
+  background-color: black;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+h1 {
+  color: whitesmoke;
+  margin-top: 0;
+  text-align: center;
+}
+
+.tip-container p {
+  color: whitesmoke;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+button {
+  background-color: darkred;
+  color: whitesmoke;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+  width: 130px;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: red;
+}
+
+button:active {
+  background-color: darkred;
+}
+
+#total {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+}
+
+.date-time {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+#skills {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#skills h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.skill-category {
+  margin-bottom: 40px;
+}
+
+.skill-category h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill {
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+}
+
+.skill i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #007bff;
+}
